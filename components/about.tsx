@@ -15,7 +15,7 @@ export default function About() {
         </p>
 
         <p className="mb-3">
-          Outside of work and learning, I love staying active at the gym, playing volleyball, gaming, taking late-night walks, and meeting new people. If any of that resonates with you, feel free to <a href="#contact" className="underline font-bold">connect</a>—I’d love to chat!  
+          Outside of work and learning, I love staying active at the gym, playing volleyball, gaming, taking late-night walks, and meeting new people. If any of that resonates with you, feel free to <a href="#connect" className="underline font-bold">connect</a>—I’d love to chat!  
         </p>
     </section>
   )

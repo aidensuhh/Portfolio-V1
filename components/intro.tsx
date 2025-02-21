@@ -57,7 +57,7 @@ export default function Intro() {
         initial={{ opacity: 0, scale: 0, y: 100}}
         animate={{ opacity: 1, scale: 1, y: 0}}
         transition={{ duration: 1}}>
-            <Link href="#contact" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full font-bold outline-none hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all">Connect with me!</Link>
+            <Link href="#connect" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full font-bold outline-none hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all">Connect with me!</Link>
 
             <a className="group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer border border-black/10" href="/Resume.pdf" target="_blank" rel="noopener">Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /></a>
 
