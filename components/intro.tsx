@@ -42,7 +42,7 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0, y: 100}}
             animate={{ opacity: 1, scale: 1, y: 0}}
             transition={{ duration: 0.4 }}>
-                Hey! I'm Aiden!
+                Hey! I am Aiden!
             </motion.span>
 
             <motion.span className="block text-xl text-center py-4 w-50"

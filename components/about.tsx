@@ -6,11 +6,11 @@ export default function About() {
         <h2 className="text-3xl mb-8">About Me</h2>
 
         <p className="mb-3">
-            I don't know what to write here!asdfasdfasdfasdfasdfasdfasadsfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfdasfasdafdasfasdfdfasdfasdfasfsadfafasdfasdfasdfaasdfsadfas
+            I dont know what to write here!asdfasdfasdfasdfasdfasdfasadsfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfdasfasdafdasfasdfdfasdfasdfasfsadfafasdfasdfasdfaasdfsadfas
         </p>
 
         <p className="mb-3">
-            I don't know what to write here!
+            I dont know what to write here!
         </p>
     </section>
   )
