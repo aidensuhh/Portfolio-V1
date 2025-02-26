@@ -1,7 +1,3 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import RBVeal from "@/public/RBVeal.png";
 import OutPerform from "@/public/OutPerform.png";
 import Placeholder from "@/public/Placeholder.png";
@@ -48,8 +44,8 @@ export const projectsData = [
   {
     title: "RBVeal",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A banking phishing simulator leveraging AI call agent to trick students into transferring money. Winner of UofTHakcs 12 Tech@RBC Sponsor Prize.",
+    tags: ["React", "Next.js", "Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Deepgram", "Websockets"],
     imageUrl: RBVeal,
   },
   {
