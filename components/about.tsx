@@ -25,7 +25,7 @@ export default function About() {
             As I explored my post-secondary choices in my final year of high school, the field of computer science stood out to me in particular. The freedom to use my skills anywhere, anytime—working on my own terms with just a laptop—really aligned with my future ideals. Coupled with my background in finance, this has set me on a path to make a meaningful impact and help create a better world.
           </p>
           <p>
-            Outside of work and learning, I love staying active at the gym, reading fantasy/mystery fiction, playing volleyball, playing video games, taking late-night walks, and meeting new people. If any of that resonates with you, feel free to <a href="#connect" className="underline font-bold">connect</a>—I'd love to chat!  
+            Outside of work and learning, I love staying active at the gym, reading fantasy/mystery fiction, playing volleyball, playing video games, taking late-night walks, and meeting new people. If any of that resonates with you, feel free to <a href="#connect" className="underline font-bold">connect</a>—I&apos;d love to chat!  
           </p>
       </section>
     )
