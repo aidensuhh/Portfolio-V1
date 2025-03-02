@@ -3,7 +3,9 @@ import RBVeal from "@/public/RBVeal.png";
 import Finilytics from "@/public/Finilytics.png";
 import OutPerform from "@/public/OutPerform.png";
 import EchoDoc from "@/public/EchoDoc.png";
-import { LuGraduationCap } from "react-icons/lu";
+import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip } from "react-icons/ai";
+import ReactMarkdown from "react-markdown";
+
 
 export const links = [
   {
@@ -35,26 +37,26 @@ export const links = [
 export const experiencesData = [
   {
     title: "Web Developer",
-    location: "Waterloo, ON",
+    organization: "Electrium Mobility",
     description:
-      "Developing an Android app using Kotlin to seamlessly integrate Google Maps with eco-friendly electric cargo bike, as well as the organization's website using Typescript, React, and Tailwind CSS.",
-    icon: React.createElement(LuGraduationCap),
+      "Building an Android app using Kotlin to seamlessly integrate Google Maps with eco-friendly electric cargo bike, as well as contributing to the development of the organization's website using Typescript, React, and Tailwind CSS.",
+    icon: React.createElement(AiOutlineGlobal),
     date: "January 2025 - Present",
   },
   {
     title: "Technology Coordinator",
-    location: "Waterloo, ON",
+    organization: "University of Waterloo Korean Student Association",
     description:
       "Developing the organization's web app using Python, Flask, and SQLite to manage membership registrations and provide member services for 200+ members.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(AiOutlineLaptop),
     date: "January 2025 - Present",
   },
   {
     title: "CxC Datathon Coordinator",
-    location: "Waterloo, ON",
+    organization: "University of Waterloo Data Science Club",
     description:
       "Organized 10+ sponsors to overee key logitstics of the ceremonies for Canada's largest Data Science hackathon, as well as delievering 7 workshops for 350+ participants, resulting in a 233% increase in workshop offerings compared to the previous year.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(AiTwotoneFileZip),
     date: "December 2024 - February 2025",
   },
 ] as const;
