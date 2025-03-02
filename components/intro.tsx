@@ -13,7 +13,7 @@ export default function Intro() {
     const {ref} = useSectionInView("Home", 0.6);
 
   return (
-    <section className="mb-28 max-w-[35rem] text-center sm:mb-0 scroll-mt-[100rem]" id="home" ref={ref}>
+    <section className="mb-28 max-w-[35rem] text-center sm:mb-40 scroll-mt-[100rem]" id="home" ref={ref}>
         <div className="flex items-center justify-center">
             <div className="relative">
                 <motion.div

@@ -8,7 +8,7 @@ export default function About() {
     const {ref} = useSectionInView("About", 0.75);
 
     return (
-      <section className="font-medium max-w-[35rem] text-center leading-8 scroll-mt-28" 
+      <section className="font-medium max-w-[35rem] text-center leading-8 scroll-mt-28 mb-28 sm:mb-40" 
       id="about"
       ref={ref}
       > 
