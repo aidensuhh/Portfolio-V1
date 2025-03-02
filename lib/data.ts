@@ -4,8 +4,6 @@ import Finilytics from "@/public/Finilytics.png";
 import OutPerform from "@/public/OutPerform.png";
 import EchoDoc from "@/public/EchoDoc.png";
 import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip } from "react-icons/ai";
-import ReactMarkdown from "react-markdown";
-
 
 export const links = [
   {
