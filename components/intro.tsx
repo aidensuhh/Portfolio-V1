@@ -7,10 +7,13 @@ import Link from 'next/link';
 import { HiDownload } from "react-icons/hi";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import Profile from "../public/Profile.jpg";
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
+    const {ref} = useSectionInView("Home", 0.6);
+
   return (
-    <section className="mb-28 max-w-[35rem] text-center sm:mb-0">
+    <section className="mb-28 max-w-[35rem] text-center sm:mb-0 scroll-mt-[100rem]" id="home" ref={ref}>
         <div className="flex items-center justify-center">
             <div className="relative">
                 <motion.div
