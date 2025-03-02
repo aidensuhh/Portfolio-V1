@@ -1,16 +1,16 @@
 import React from 'react';
 import Heading from './heading';
 import { projectsData } from '@/lib/data';
-
+import Project from './project';
 export default function Projects() {
   return (
     <section>
         <Heading>Projects</Heading>
-        <div>
+        <div className="mt-[3.25rem]">
             {
                 projectsData.map((project, index) => (
                     <React.Fragment key={index}>
-                        <h2>{project.title}</h2>
+                        <Project {...project} />
                     </React.Fragment>
                 ))
             }

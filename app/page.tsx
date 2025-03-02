@@ -10,6 +10,7 @@ export default function Home() {
         <SectionDivider />
         <About />
         <Projects />
+        <SectionDivider />
     </main>
   );
 }

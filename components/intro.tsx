@@ -2,11 +2,11 @@
 
 import Image from 'next/image';
 import React from 'react';
-import Profile from "@/public/PFP.jpg";
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import { HiDownload } from "react-icons/hi";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import Profile from "../public/Profile.jpg";
 
 export default function Intro() {
   return (
@@ -20,7 +20,7 @@ export default function Intro() {
                     type: "tween",
                     duration: 0.4,
                 }}>
-                    <Image  src={Profile} 
+                    <Image  src= {Profile}
                             alt='Aiden Suh'
                             width={192} // specify these so it knows the dimensions of the image that it has to preload
                             height={192}
@@ -49,7 +49,7 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0, y: 100}}
             animate={{ opacity: 1, scale: 1, y: 0}}
             transition={{ duration: 0.8 }}>
-                I am a student at the <a className="underline font-bold" href="https://uwaterloo.ca/" target="_blank" rel="noopener">University of Waterloo</a>, double majoring in <span className="font-bold">Computer Science and Finance</span>, with a strong interest in full-stack development, machine learning, data analysis, and financial technology.
+                I am a <a className="underline font-bold" href="https://uwaterloo.ca/" target="_blank" rel="noopener">University of Waterloo</a> student pursuing a double major in <span className="font-bold">Computer Science and Finance</span>. With a passion for both fields, I strive to leverage technology and financial insights to tackle complex problems worldwide.
             </motion.span>
         </p>
 

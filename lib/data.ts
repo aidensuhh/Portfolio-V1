@@ -1,6 +1,9 @@
+import React from "react";
 import RBVeal from "@/public/RBVeal.png";
+import Finilytics from "@/public/Finilytics.png";
 import OutPerform from "@/public/OutPerform.png";
-import Placeholder from "@/public/Placeholder.png";
+import EchoDoc from "@/public/EchoDoc.png";
+import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
   {
@@ -19,48 +22,75 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-//  { // add when i get a job :)
-//    name: "Experience",
-//    hash: "#experience",
-//  },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Connect",
     hash: "#connect",
   },
 ] as const;
 
-// export const experiencesData = [
-//   {
-//     title: "Job Title 1",
-//     location: "N/A",
-//     description:
-//       "N/A.",
-//     icon: React.createElement(LuGraduationCap),
-//     date: "N/A",
-//   },
-// ] as const;
+export const experiencesData = [
+  {
+    title: "Web Developer",
+    location: "Waterloo, ON",
+    description:
+      "Developing an Android app using Kotlin to seamlessly integrate Google Maps with eco-friendly electric cargo bike, as well as the organization's website using Typescript, React, and Tailwind CSS.",
+    icon: React.createElement(LuGraduationCap),
+    date: "January 2025 - Present",
+  },
+  {
+    title: "Technology Coordinator",
+    location: "Waterloo, ON",
+    description:
+      "Developing the organization's web app using Python, Flask, and SQLite to manage membership registrations and provide member services for 200+ members.",
+    icon: React.createElement(LuGraduationCap),
+    date: "January 2025 - Present",
+  },
+  {
+    title: "CxC Datathon Coordinator",
+    location: "Waterloo, ON",
+    description:
+      "Organized 10+ sponsors to overee key logitstics of the ceremonies for Canada's largest Data Science hackathon, as well as delievering 7 workshops for 350+ participants, resulting in a 233% increase in workshop offerings compared to the previous year.",
+    icon: React.createElement(LuGraduationCap),
+    date: "December 2024 - February 2025",
+  },
+] as const;
 
 export const projectsData = [
   {
     title: "RBVeal",
     description:
-      "A banking phishing simulator leveraging AI call agent to trick students into transferring money. Winner of UofTHakcs 12 Tech@RBC Sponsor Prize.",
-    tags: ["React", "Next.js", "Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Deepgram", "Websockets"],
+      "A banking phishing simulator that sends a real email about a login attempt, leading students to the bank website, where an AI agent tries to scam them. Winner of UofTHacks 12 Tech@RBC Sponsor Prize.",
+    tags: ["JavaScript", "React", "Next.js", "Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Websockets", "Deepgram"],
     imageUrl: RBVeal,
+    githubUrl: "https://github.com/aidensuhh/RBveal",
   },
   {
-    title: "rmtDev",
+    title: "Finilytics",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+    tags: ["Next.js", "TypeScript", "Appwrite", "Plaid", "Dwolla", "React Hook Form", "Zod", "Tailwind CSS", "Chart.js"],
+    imageUrl: Finilytics,
+    githubUrl: "https://github.com/aidensuhh/Finilytics",
+  },
+  {
+    title: "EchoDoc",
+    description:
+      "An innovative healthcare technology platform that revolutionizes how family doctors deliver care through AI voice cloning for remote patient interactions.",
+    tags: ["TypeScript", "Express.js", "Next.js", "React", "Tailwind CSS", "Supabase", "ElevenLabs", "Google Gemini", "Clerk", "Twilio"],
+    imageUrl: EchoDoc,
+    githubUrl: "https://github.com/aidensuhh/EchoDoc",
+  },
+  {
+    title: "OutPerform",
+    description:
+      "A robo-advisor that selects an optimized portfolio of 12 stocks from a random list of tickers to surpass the market average between TSX 60 and S&P 500.",
+    tags: ["Python", "NumPy", "Pandas", "Matplotlib"],
     imageUrl: OutPerform,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: Placeholder,
+    githubUrl: "https://github.com/aidensuhh/OutPerform",
   },
 ] as const;
 
@@ -74,6 +104,10 @@ export const skillsData = [
   "Node.js",
   "Next.js",
   "Express.js",
+  "Flask",
+  "SQLite",
+  "Kotlin",
+  "Chart.js",
   "Python",
   "NumPy",
   "pandas",

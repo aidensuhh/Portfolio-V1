@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Header from "@/components/header";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,6 +16,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aiden Suh",
   description: "Aiden is a first-year student at the University of Waterloo, who is interested in computer science, finance, and everything in-between.",
+  icons: [
+    {
+      rel: 'icon',
+      url: '/favicon.ico',
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -31,7 +36,6 @@ export default function RootLayout({
         <div className="bg-[#eae7fc] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[20rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-24rem] xl:left-[-15rem] 2xl:left-[-5rem]"></div>
         <Header />
         {children}
-        <Analytics />
       </body>
     </html>
   );
