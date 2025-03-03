@@ -1,6 +1,6 @@
 import React from "react";
 import RBVeal from "@/public/RBVeal.png";
-import Finilytics from "@/public/Finilytics.png";
+import Fitality from "@/public/Fitality.png";
 import OutPerform from "@/public/OutPerform.jpg";
 import EchoDoc from "@/public/EchoDoc.png";
 import Portfolio from "@/public/Portfolio.png";
@@ -72,9 +72,9 @@ export const projectsData = [
   {
     title: "Fitality",
     description:
-      "",
-    tags: ["Vue.js", "Django", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "pandas", "numpy", "Google Gemini"],
-    imageUrl: Finilytics,
+      "A gamified AI-powered financial health tracker that helps university students assess and improve their financial habits. Currently working on training a financial advisor agent!",
+    tags: ["Vue.js", "Django", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Python", "Google Gemini"],
+    imageUrl: Fitality,
     githubUrl: "https://github.com/aidensuhh/Fitality",
   },
   {
@@ -109,20 +109,27 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Tailwind CSS",
-  "Node.js",
+  "Vue.js",
   "Next.js",
+  "Tailwind CSS",
+  "Framer Motion",
+  "Node.js",
   "Express.js",
+  "Java",
   "Python",
   "Flask",
+  "Django",
+  "PyTorch",
+  "PostgreSQL",
+  "Axios",
   "SQLite",
+  "Nginx",
+  "Supabase",
   "Kotlin",
-  "Chart.js",
   "NumPy",
   "pandas",
-  "Java",
-  "C++",
+  "Matplotlib",
   "Git",
   "GitHub",
-  "Framer Motion",
+  "Jupyter Notebook",
 ] as const;
