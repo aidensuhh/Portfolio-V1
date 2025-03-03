@@ -1,8 +1,9 @@
 import React from "react";
 import RBVeal from "@/public/RBVeal.png";
 import Finilytics from "@/public/Finilytics.png";
-import OutPerform from "@/public/OutPerform.png";
+import OutPerform from "@/public/OutPerform.jpg";
 import EchoDoc from "@/public/EchoDoc.png";
+import Portfolio from "@/public/Portfolio.png";
 import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip } from "react-icons/ai";
 
 export const links = [
@@ -64,17 +65,17 @@ export const projectsData = [
     title: "RBVeal",
     description:
       "A banking phishing simulator that sends a real email about a login attempt, leading students to the bank website, where an AI agent tries to scam them. Winner of UofTHacks 12 Tech@RBC Sponsor Prize.",
-    tags: ["JavaScript", "React", "Next.js", "Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Websockets", "Deepgram"],
+    tags: ["JavaScript", "React", "Next.js", "Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Websockets", "Deepgram", "Nodemailer"],
     imageUrl: RBVeal,
     githubUrl: "https://github.com/aidensuhh/RBveal",
   },
   {
-    title: "Finilytics",
+    title: "Fitality",
     description:
-      "SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
-    tags: ["Next.js", "TypeScript", "Appwrite", "Plaid", "Dwolla", "React Hook Form", "Zod", "Tailwind CSS", "Chart.js"],
+      "",
+    tags: ["Vue.js", "Django", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "pandas", "numpy", "Google Gemini"],
     imageUrl: Finilytics,
-    githubUrl: "https://github.com/aidensuhh/Finilytics",
+    githubUrl: "https://github.com/aidensuhh/Fitality",
   },
   {
     title: "EchoDoc",
@@ -88,9 +89,17 @@ export const projectsData = [
     title: "OutPerform",
     description:
       "A robo-advisor that selects an optimized portfolio of 12 stocks from a random list of tickers to surpass the market average between TSX 60 and S&P 500.",
-    tags: ["Python", "NumPy", "Pandas", "Matplotlib"],
+    tags: ["Python", "NumPy", "Pandas", "Matplotlib", "yfinance"],
     imageUrl: OutPerform,
     githubUrl: "https://github.com/aidensuhh/OutPerform",
+  },
+  {
+    title: "Personal Portfolio V1",
+    description:
+      "A static, responsive portfolio website built with modern front-end development tools to showcase projects & professional experience. Version 2 is currently under development for a more dynamic user experience!",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Framer Motion"],
+    imageUrl: Portfolio,
+    githubUrl: "https://github.com/aidensuhh/Portfolio-V1",
   },
 ] as const;
 

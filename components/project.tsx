@@ -41,7 +41,7 @@ export default function Project({title, description, tags, imageUrl, githubUrl}:
                         src={imageUrl} 
                         alt="Project" 
                         quality={95}
-                        className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] h-[18rem] rounded-t-lg shadow-2xl
+                        className="absolute hidden sm:block top-8 -right-40 object-cover object-left-top w-[28.25rem] h-[18rem] rounded-t-lg shadow-2xl
                         transition 
                         group-hover:scale-[1.04]
                         group-hover:-translate-x-3 

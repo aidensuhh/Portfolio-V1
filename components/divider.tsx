@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Divider() {
   return (
-    <motion.div className="bg-gray-200 my-24 h-16 w-1 rounded-full hidden sm:block mb-28 sm:mb-[15rem]"
+    <motion.div className="bg-gray-200 my-24 h-16 w-1 rounded-full hidden sm:block"
     initial={{ opacity: 0, scale: 0, y: 100 }}
     animate={{ opacity: 1, scale: 1, y: 0}}
     transition={{ duration: 1.1}}>
