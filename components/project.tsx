@@ -26,7 +26,7 @@ export default function Project({title, description, tags, imageUrl, githubUrl}:
         }}
         className="group mb-3 sm:mb-8 last:mb-0"> 
             <a href={githubUrl} target="_blank" rel="noopener">
-                <section className="bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden rounded-lg sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 hover:scale-105 transition-all group-even:pl-8 sm:group-even:pl-10">
+                <section className="bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden rounded-lg sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 hover:scale-105 transition-all sm:group-even:pl-10">
                     <div className="flex flex-col h-full pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] group-even:sm:ml-[18rem]">
                         <h3 className="text-2xl font-semibold">{title}</h3>
                         <p className="mt-2 leading-relaxed text-gray-700 text-sm">{description}</p>

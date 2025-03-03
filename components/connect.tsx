@@ -5,7 +5,7 @@ import SectionHeading from './section-heading'
 import { useSectionInView } from '@/lib/hooks'
 
 export default function Connect() {
-    const {ref} = useSectionInView("Connect", 0.5);
+  const {ref} = useSectionInView("Connect", 0.5);
   return (
     <section id="connect" ref={ref} className="mb-28 max-w-[45rem] scroll-mt-28 text-center sm:mb-40">
         <SectionHeading>Connect</SectionHeading>
