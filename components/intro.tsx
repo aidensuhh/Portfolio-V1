@@ -62,7 +62,7 @@ export default function Intro() {
         transition={{ duration: 1}}>
             <Link href="#connect" className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full font-bold outline-none hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all">Connect with me!</Link>
 
-            <a className="group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer border border-black/10" href="/Resume.pdf" target="_blank" rel="noopener">Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /></a>
+            <a className="group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer border border-black/10" href="/Resume_AidenS.pdf" target="_blank" rel="noopener">Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /></a>
 
             <a className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer border border-black/10" href="https://www.linkedin.com/in/aidensuhh/" target="_blank" rel="noopener">
                 <BsLinkedin />

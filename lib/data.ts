@@ -4,7 +4,7 @@ import Fitality from "@/public/Fitality.png";
 import OutPerform from "@/public/OutPerform.jpg";
 import EchoDoc from "@/public/EchoDoc.png";
 import Portfolio from "@/public/Portfolio.png";
-import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip } from "react-icons/ai";
+import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff  } from "react-icons/ai";
 
 export const links = [
   {
@@ -35,10 +35,18 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Associate",
+    organization: "University of Waterloo FinTech Club",
+    description:
+      "Working on software projects with fellow associates to make a real impact in the financial technology world!",
+    icon: React.createElement(AiOutlinePoweroff),
+    date: "March 2025 - Present",
+  },
+  {
     title: "Web Developer",
     organization: "Electrium Mobility",
     description:
-      "Building an Android app using Kotlin to seamlessly integrate Google Maps with eco-friendly electric cargo bike, as well as contributing to the development of the organization's website using Typescript, React, and Tailwind CSS.",
+      "Building an Android app using Kotlin to seamlessly integrate Google Maps with eco-friendly electric cargo bikes, as well as contributing to the development of the organization's website using Typescript, React, and Tailwind CSS.",
     icon: React.createElement(AiOutlineGlobal),
     date: "January 2025 - Present",
   },
@@ -129,6 +137,9 @@ export const skillsData = [
   "NumPy",
   "pandas",
   "Matplotlib",
+  "Racket",
+  "Digital Ocean",
+  "Figma",
   "Git",
   "GitHub",
   "Jupyter Notebook",
