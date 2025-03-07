@@ -62,7 +62,7 @@ export const experiencesData = [
     title: "CxC Datathon Coordinator",
     organization: "University of Waterloo Data Science Club",
     description:
-      "Organized 10+ sponsors to overee key logitstics of the ceremonies for Canada's largest Data Science hackathon, as well as delievering 7 workshops for 350+ participants, resulting in a 233% increase in workshop offerings compared to the previous year.",
+      "Organized 10+ sponsors to oversee key logistics of the ceremonies for Canada's largest Data Science hackathon, as well as delivering 7 workshops for 350+ participants, resulting in a 233% increase in workshop offerings compared to the previous year.",
     icon: React.createElement(AiTwotoneFileZip),
     date: "December 2024 - February 2025",
   },
