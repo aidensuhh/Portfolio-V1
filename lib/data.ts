@@ -4,6 +4,7 @@ import Fitality from "@/public/Fitality.png";
 import OutPerform from "@/public/OutPerform.jpg";
 import EchoDoc from "@/public/EchoDoc.png";
 import Portfolio from "@/public/Portfolio.png";
+import Breakout from "@/public/Breakout.png";
 import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff  } from "react-icons/ai";
 
 export const links = [
@@ -81,7 +82,7 @@ export const projectsData = [
     title: "Fitality",
     description:
       "A gamified AI-powered financial health tracker that helps university students assess and improve their financial habits. Currently working on training a financial advisor agent!",
-    tags: ["Vue.js", "Django", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Python", "Google Gemini"],
+    tags: ["Vue.js", "Flask", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Python", "Google Gemini"],
     imageUrl: Fitality,
     githubUrl: "https://github.com/aidensuhh/Fitality",
   },
@@ -105,9 +106,17 @@ export const projectsData = [
     title: "Personal Portfolio V1",
     description:
       "A static, responsive portfolio website built with modern front-end development tools to showcase projects & professional experience. Version 2 is currently under development for a more dynamic user experience!",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Framer Motion"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Three.js", "Framer Motion"],
     imageUrl: Portfolio,
     githubUrl: "https://github.com/aidensuhh/Portfolio-V1",
+  },
+  {
+    title: "Breakout",
+    description:
+      "Simple JavaFX program that recreates a classic arcade game with enhanced experience delivered by customized modern features.",
+    tags: ["Java", "JavaFX"],
+    imageUrl: Breakout,
+    githubUrl: "https://github.com/aidensuhh/Breakout",
   },
 ] as const;
 
