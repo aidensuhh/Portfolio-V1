@@ -3,14 +3,27 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { useSectionInView } from "@/lib/hooks";
+import { motion } from "framer-motion";
 
 export default function About() {
     const {ref} = useSectionInView("About", 0.5);
 
     return (
-      <section className="font-medium max-w-[35rem] text-center leading-8 scroll-mt-28 mb-28 sm:mb-40" 
+      <motion.section className="font-medium max-w-[35rem] text-center leading-8 scroll-mt-28 mb-28 sm:mb-40" 
       id="about"
       ref={ref}
+      initial={{
+        opacity: 0
+      }}
+      whileInView={{
+        opacity:1
+      }}
+      transition={{
+        duration: 1
+      }}
+      viewport={{
+        once: true
+      }}
       > 
         <SectionHeading>About Me</SectionHeading>
           <p className="mb-4">
@@ -27,6 +40,6 @@ export default function About() {
           <p>
             Outside of work and learning, I love staying active at the gym, reading fantasy/mystery fiction, playing volleyball, playing video games, taking late-night walks, and meeting new people. If any of that resonates with you, feel free to <a href="#connect" className="underline font-bold">connect</a>—I&apos;d love to chat!  
           </p>
-      </section>
+      </motion.section>
     )
   }

@@ -8,6 +8,7 @@ import Footer from "@/components/footer";
 import { Analytics } from '@vercel/analytics/next';
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
+import ParticleField from '@/components/ParticleField';
 
 
 const geistSans = Geist({
@@ -40,18 +41,20 @@ export default function RootLayout({
     <html lang="en" className="!scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 overflow-x-hidden dark:bg-gray-900 dark:text-gray-50 dark:bg-opacity-90`}>
         <div className="max-w-[100vw]">
-          <div className="bg-[#f7dfdf] absolute top-[-6rem] -z-10 right-[-5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[500rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
-          <div className="bg-[#eae7fc] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[20rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-24rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
+          {/* Gradient Blurs */}
+          <div className="bg-[#ffdfdf] absolute top-[-6rem] -z-10 right-[-5rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263] dark:opacity-30" />
+          <div className="bg-[#dce7ff] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-24rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394] dark:opacity-30" />
           
           <ThemeContextProvider>
-              <ActiveSectionContextProvider>
-                <Header />
-                {children}
-                <Toaster position="top-center" />
-                <Footer />
-              </ActiveSectionContextProvider>
-              <ThemeSwitch />
-              <Analytics />
+            <ActiveSectionContextProvider>
+              <ParticleField />
+              <Header />
+              {children}
+              <Toaster position="top-center" />
+              <Footer />
+            </ActiveSectionContextProvider>
+            <ThemeSwitch />
+            <Analytics />
           </ThemeContextProvider>
         </div>
       </body>
