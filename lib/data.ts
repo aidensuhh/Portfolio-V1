@@ -3,7 +3,6 @@ import RBVeal from "@/public/RBVeal.png";
 import Fitality from "@/public/Fitality.png";
 import OutPerform from "@/public/OutPerform.jpg";
 import EchoDoc from "@/public/EchoDoc.png";
-import Portfolio from "@/public/Portfolio.png";
 import Breakout from "@/public/Breakout.png";
 import Portfolio_L from "@/public/Portfolio_L.png";
 import Portfolio_D from "@/public/Portfolio_D.png";
@@ -72,19 +71,9 @@ export const experiencesData = [
   },
 ] as const;
 
-// Add this type for the image URL
 type ThemeImages = {
-  light: any;
-  dark: any;
-};
-
-// Update the ProjectType to include the possibility of theme-based images
-type ProjectType = {
-  title: string;
-  description: string;
-  tags: readonly string[];
-  imageUrl: StaticImageData | ThemeImages;
-  githubUrl: string;
+  light: StaticImageData;
+  dark: StaticImageData;
 };
 
 export const projectsData = [
@@ -128,7 +117,7 @@ export const projectsData = [
     imageUrl: {
       light: Portfolio_D,
       dark: Portfolio_L
-    },
+    } as ThemeImages,
     githubUrl: "https://github.com/aidensuhh/Portfolio-V1",
   },
   {
