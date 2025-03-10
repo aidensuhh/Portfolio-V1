@@ -8,11 +8,11 @@ import { sendEmail } from '@/actions/sendEmail';
 import SubmitBtn from './submit-btn';
 import { toast } from 'react-hot-toast';
 
-export default function Connect() {
-  const {ref} = useSectionInView("Connect", 0.5);
+export default function Contact() {
+  const {ref} = useSectionInView("Contact", 0.5);
 
   return (
-    <motion.section id="connect" ref={ref} className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+    <motion.section id="contact" ref={ref} className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
     initial={{
       opacity: 0
     }}
@@ -26,11 +26,11 @@ export default function Connect() {
       once: true
     }}
     >
-        <SectionHeading>Connect</SectionHeading>
-        <p className="text-gray-700 -mt-5">Please contact me directly at <a href="mailto:aidenmsuh06@gmail.com" className="underline">aidenmsuh06@gmail.com</a> or through this form.</p>
+        <SectionHeading>Contact</SectionHeading>
+        <p className="text-gray-700 -mt-5">Please email me directly at <a href="mailto:aidenmsuh06@gmail.com" className="underline">aidenmsuh06@gmail.com</a> or through this form.</p>
 
-        <form className="mt-10 flex flex-col" action={async (formData) => {
-          const {data, error} = await sendEmail(formData);
+        <form className="mt-8 flex flex-col" action={async (formData) => {
+          const {error} = await sendEmail(formData);
           if (error) {
             toast.error(error);
             return
@@ -51,7 +51,7 @@ export default function Connect() {
           required
           maxLength={5000}
           placeholder="Your message" />
-          <div className="flex justify-center w-full">
+          <div className="flex justify-center w-full mt-3">
             <SubmitBtn />
           </div>
         </form>
