@@ -4,4 +4,13 @@
 
 html {
     --line-color: #e5e7eb;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.borderBlack {
+    @apply border border-black/10;
 }
