@@ -14,13 +14,11 @@ function ParticleSystem() {
     const positions = new Float32Array(particleCount * 3);
     const colors = new Float32Array(particleCount * 3);
     
-    // More contrasting colors for light mode, keeping dark mode the same
-    const color1 = new Color(theme === 'light' ? '#4a3aff' : '#946263'); // Deep purple
-    const color2 = new Color(theme === 'light' ? '#ff3a8c' : '#676394'); // Vibrant pink
+    const color1 = new Color(theme === 'light' ? '#4a3aff' : '#946263');
+    const color2 = new Color(theme === 'light' ? '#ff3a8c' : '#676394');
 
     for(let i = 0; i < particleCount; i++) {
-      // Create an infinite double helix pattern
-      const t = (i / particleCount) % 1;  // Normalized position (0 to 1)
+      const t = (i / particleCount) % 1;
       const angle = t * Math.PI * 8;
       const radius = 25 + Math.sin(t * Math.PI * 4) * 5;
       
@@ -28,7 +26,6 @@ function ParticleSystem() {
       positions[i * 3 + 1] = (t - 0.5) * 50;
       positions[i * 3 + 2] = Math.sin(angle) * radius;
 
-      // Enhanced color gradient
       const mixFactor = Math.sin(angle + t * Math.PI);
       const particleColor = color1.clone().lerp(color2, mixFactor);
       
@@ -46,15 +43,12 @@ function ParticleSystem() {
   useFrame((state) => {
     if (!points.current) return;
     
-    // Gentle continuous rotation
     points.current.rotation.y = state.clock.getElapsedTime() * 0.1;
     points.current.rotation.z = Math.sin(state.clock.getElapsedTime() * 0.2) * 0.1;
     
-    // Subtle breathing effect
     const scale = 1 + Math.sin(state.clock.getElapsedTime() * 0.3) * 0.05;
     points.current.scale.set(scale, scale, scale);
 
-    // Continuous flowing wave effect
     const positions = points.current.geometry.attributes.position.array as Float32Array;
     for(let i = 0; i < positions.length; i += 3) {
       const time = state.clock.getElapsedTime();
@@ -84,10 +78,7 @@ function ParticleSystem() {
 export default function ParticleField() {
   return (
     <div className="fixed inset-0 -z-10">
-      <Canvas 
-        camera={{ position: [0, 0, 30], fov: 75 }}
-        dpr={[1, 2]}
-      >
+      <Canvas camera={{ position: [0, 0, 30], fov: 75 }} dpr={[1, 2]}>
         <ParticleSystem />
       </Canvas>
     </div>
