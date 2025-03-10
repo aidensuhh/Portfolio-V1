@@ -5,6 +5,7 @@ import "./globals.css";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast"; 
 import Footer from "@/components/footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,6 +46,7 @@ export default function RootLayout({
             <Toaster position="top-center" />
             <Footer />
           </ActiveSectionContextProvider>
+          <Analytics />
         </div>
       </body>
     </html>
