@@ -5,7 +5,10 @@ import OutPerform from "@/public/OutPerform.jpg";
 import EchoDoc from "@/public/EchoDoc.png";
 import Portfolio from "@/public/Portfolio.png";
 import Breakout from "@/public/Breakout.png";
+import Portfolio_L from "@/public/Portfolio_L.png";
+import Portfolio_D from "@/public/Portfolio_D.png";
 import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff  } from "react-icons/ai";
+import { StaticImageData } from "next/image";
 
 export const links = [
   {
@@ -69,6 +72,21 @@ export const experiencesData = [
   },
 ] as const;
 
+// Add this type for the image URL
+type ThemeImages = {
+  light: any;
+  dark: any;
+};
+
+// Update the ProjectType to include the possibility of theme-based images
+type ProjectType = {
+  title: string;
+  description: string;
+  tags: readonly string[];
+  imageUrl: StaticImageData | ThemeImages;
+  githubUrl: string;
+};
+
 export const projectsData = [
   {
     title: "RBVeal",
@@ -105,9 +123,12 @@ export const projectsData = [
   {
     title: "Personal Portfolio V1",
     description:
-      "A responsive, dynamic portfolio built with modern front-end technologies featuring 3D animated backgrounds with automated email responses and form validation to showcase projects & experience.",
+      "A responsive, dynamic portfolio built with modern front-end technologies featuring 3D animated backgrounds with automated email responses and form validation to showcase projects & experience.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Three.js", "Framer Motion"],
-    imageUrl: Portfolio,
+    imageUrl: {
+      light: Portfolio_D,
+      dark: Portfolio_L
+    },
     githubUrl: "https://github.com/aidensuhh/Portfolio-V1",
   },
   {
