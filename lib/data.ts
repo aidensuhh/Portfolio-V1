@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "Software Associate",
     organization: "University of Waterloo FinTech Club",
     description:
-      "Collaborating with team members on software projects to contribute to innovative solutions within the financial technology sector.",
+      "Engineering a decision support system that uses machine learning to recommend the most suitable neo bank or fintech platform based on users' financial needs.",
     icon: React.createElement(AiOutlinePoweroff),
     date: "March 2025 - Present",
   },
@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Web Developer",
     organization: "Electrium Mobility",
     description:
-      "Built a Kotlin Android app with Google Maps for E-Bike GPS navigation, engineered a Bluetooth Low Energy scanner for real-time communication across 40+ devices, and developed a responsive website with TypeScript, React, and Tailwind CSS for improved iOS UI and accessibility.",
+      "Built an Android app for electric bike users with Kotlin and developed the organization's website with TypeScript, React, and Tailwind CSS.",
     icon: React.createElement(AiOutlineGlobal),
     date: "January 2025 - Present",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Technology Coordinator",
     organization: "University of Waterloo Korean Student Association",
     description:
-      "Developed a web application with Python, Flask, and SQLite to manage 200+ member registrations, and implemented a student-vendor verification system using JavaScript, HTML, and CSS to streamline authentication and offer discounts at 7+ local eateries through mobile-first web interfaces.",
+      "Developed a web application with Python, Flask, and SQLite and implemented a student-vendor verification system with JavaScript, HTML, and CSS.",
     icon: React.createElement(AiOutlineLaptop),
     date: "January 2025 - Present",
   },
@@ -65,7 +65,7 @@ export const experiencesData = [
     title: "CxC Datathon Coordinator",
     organization: "University of Waterloo Data Science Club",
     description:
-      "Organized 10+ sponsors to oversee key logistics of the ceremonies for Canada's largest Data Science hackathon, as well as delivering 7 beginner-friendly workshops for 350+ participants, driving a 233% year-over-year increase in offerings.",
+      "Oversaw key logistics for the ceremony procedures of Canada's largest Data Science hackathon and delivered beginner-friendly workshops for participants.",
     icon: React.createElement(AiTwotoneFileZip),
     date: "December 2024 - February 2025",
   },
@@ -151,6 +151,7 @@ export const skillsData = [
   "NumPy",
   "pandas",
   "Matplotlib",
+  "MySQL",
   "PostgreSQL",
   "Supabase",
   "SQLite",
