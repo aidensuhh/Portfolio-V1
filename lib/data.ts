@@ -6,7 +6,7 @@ import EchoDoc from "@/public/EchoDoc.png";
 import Breakout from "@/public/Breakout.png";
 import Portfolio_L from "@/public/Portfolio_L.png";
 import Portfolio_D from "@/public/Portfolio_D.png";
-import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff  } from "react-icons/ai";
+import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff, AiOutlineRobot } from "react-icons/ai";
 import { StaticImageData } from "next/image";
 
 export const links = [
@@ -38,10 +38,18 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "AI Training Specialist",
+    organization: "Scale AI",
+    description:
+      "Creating and answering computer science-related questions to train AI models, while evaluating and ranking AI-generated code for quality and accuracy.",
+    icon: React.createElement(AiOutlineRobot),
+    date: "March 2025 - Present",
+  },
+  {
     title: "Software Associate",
     organization: "University of Waterloo FinTech Club",
     description:
-      "Engineering a decision support system that uses machine learning to recommend the most suitable neo bank or fintech platform based on users' financial needs.",
+      "Engineering a decision support system that uses machine learning to recommend the most suitable fintech platform based on users' financial needs.",
     icon: React.createElement(AiOutlinePoweroff),
     date: "March 2025 - Present",
   },
@@ -65,7 +73,7 @@ export const experiencesData = [
     title: "CxC Datathon Coordinator",
     organization: "University of Waterloo Data Science Club",
     description:
-      "Oversaw key logistics for the ceremony procedures of Canada's largest Data Science hackathon and delivered beginner-friendly workshops for participants.",
+      "Oversaw key logistics for the ceremony procedures of Canada's largest Data Science hackathon and delivered beginner-friendly workshops for 350+ participants.",
     icon: React.createElement(AiTwotoneFileZip),
     date: "December 2024 - February 2025",
   },
