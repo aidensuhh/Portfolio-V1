@@ -54,19 +54,19 @@ export const experiencesData = [
     date: "March 2025 - Present",
   },
   {
+    title: "Full-Stack Developer",
+    organization: "University of Waterloo Korean Student Association",
+    description:
+      "Developed a full-stack web app using Python, Flask, and SQLite and implemented a student-vendor verification system with JavaScript, HTML, and CSS.",
+    icon: React.createElement(AiOutlineLaptop),
+    date: "January 2025 - Present",
+  },
+  {
     title: "Web Developer",
     organization: "Electrium Mobility",
     description:
       "Built an Android app for electric bike users with Kotlin and developed the organization's website with TypeScript, React, and Tailwind CSS.",
     icon: React.createElement(AiOutlineGlobal),
-    date: "January 2025 - Present",
-  },
-  {
-    title: "Technology Coordinator",
-    organization: "University of Waterloo Korean Student Association",
-    description:
-      "Developed a web application with Python, Flask, and SQLite and implemented a student-vendor verification system with JavaScript, HTML, and CSS.",
-    icon: React.createElement(AiOutlineLaptop),
     date: "January 2025 - Present",
   },
   {
