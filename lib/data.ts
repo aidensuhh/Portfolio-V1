@@ -89,7 +89,7 @@ export const projectsData = [
     title: "RBVeal",
     description:
       "A banking phishing simulator that sends a real email about a login attempt, leading students to the bank website, where an AI agent tries to scam them. Winner of UofTHacks 12 Tech@RBC Sponsor Prize.",
-    tags: ["JavaScript", "React", "Next.js", "Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Websockets", "Deepgram", "Nodemailer"],
+    tags: ["JavaScript", "React", "Next.js", "Node.js","Express.js", "Tailwind CSS", "Twilio", "OpenAI API", "Websockets", "Deepgram"],
     imageUrl: RBVeal,
     githubUrl: "https://github.com/aidensuhh/RBveal",
   },
@@ -97,7 +97,7 @@ export const projectsData = [
     title: "Fitality",
     description:
       "A gamified AI-powered financial health tracker that helps university students assess and improve their financial habits. Currently developing & training an AI-driven financial advisor agent.",
-    tags: ["Vue.js", "Flask", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Python", "Google Gemini"],
+    tags: ["Vue.js", "Python", "Flask", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Google Gemini"],
     imageUrl: Fitality,
     githubUrl: "https://github.com/aidensuhh/Fitality",
   },
@@ -105,7 +105,7 @@ export const projectsData = [
     title: "EchoDoc",
     description:
       "An innovative healthcare technology platform that revolutionizes how family doctors deliver care through AI voice cloning for remote patient interactions.",
-    tags: ["TypeScript", "Express.js", "Next.js", "React", "Tailwind CSS", "Supabase", "ElevenLabs", "Google Gemini", "Clerk", "Twilio"],
+    tags: ["TypeScript", "React", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "Supabase", "Twilio", "ElevenLabs", "Google Gemini"],
     imageUrl: EchoDoc,
     githubUrl: "https://github.com/aidensuhh/EchoDoc",
   },
@@ -113,7 +113,7 @@ export const projectsData = [
     title: "OutPerform",
     description:
       "A robo-advisor that selects an optimized portfolio of 12 stocks from a random list of tickers to outperform TSX 60 and S&P 500 benchmarks.",
-    tags: ["Python", "NumPy", "Pandas", "Matplotlib", "yfinance"],
+    tags: ["Python", "NumPy", "Pandas", "Matplotlib", "yfinance", "Jupyter Notebook"],
     imageUrl: OutPerform,
     githubUrl: "https://github.com/aidensuhh/OutPerform",
   },
@@ -121,7 +121,7 @@ export const projectsData = [
     title: "Personal Portfolio V1",
     description:
       "A responsive, dynamic portfolio built with modern front-end technologies featuring 3D animated backgrounds with automated email responses and form validation to showcase projects & experience.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Three.js", "Framer Motion"],
+    tags: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Three.js", "Framer Motion"],
     imageUrl: {
       light: Portfolio_D,
       dark: Portfolio_L
@@ -145,6 +145,7 @@ export const skillsData = [
   "TypeScript",
   "HTML",
   "CSS",
+  "SQL",
   "Kotlin",
   "Racket",
   "React",
