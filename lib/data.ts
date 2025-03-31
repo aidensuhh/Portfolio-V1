@@ -70,7 +70,7 @@ export const experiencesData = [
     date: "January 2025 - March 2025",
   },
   {
-    title: "CxC Datathon Coordinator",
+    title: "CxC Data Hackathon Coordinator",
     organization: "University of Waterloo Data Science Club",
     description:
       "Oversaw key logistics for the ceremony procedures of Canada's largest Data Science hackathon and delivered beginner-friendly workshops for 350+ participants.",
@@ -141,7 +141,8 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "Java",
-  "C/C++",
+  "C",
+  "C++",
   "JavaScript",
   "TypeScript",
   "HTML",
