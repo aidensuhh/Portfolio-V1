@@ -46,10 +46,10 @@ export const experiencesData = [
     date: "March 2025 - Present",
   },
   {
-    title: "Software Associate",
+    title: "Associate Software Developer",
     organization: "University of Waterloo FinTech Club",
     description:
-      "Engineering a decision support system that uses machine learning to recommend the most suitable fintech platform based on users' financial needs.",
+      "Engineered a decision support system that uses machine learning to recommend the most suitable fintech platform based on users' financial needs.",
     icon: React.createElement(AiOutlinePoweroff),
     date: "March 2025 - Present",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     organization: "University of Waterloo Korean Student Association",
     description:
-      "Developed a full-stack web app using Python, Flask, and SQLite and implemented a student-vendor verification system with JavaScript, HTML, and CSS.",
+      "Developed a full-stack web app using Python, Flask, and SQLite and implemented a student-vendor verification system with JavaScript, HTML, and CSS for 200+ members.",
     icon: React.createElement(AiOutlineLaptop),
     date: "January 2025 - Present",
   },
@@ -94,20 +94,20 @@ export const projectsData = [
     githubUrl: "https://github.com/aidensuhh/RBveal",
   },
   {
-    title: "Fitality",
-    description:
-      "A gamified AI-powered financial health tracker that helps university students assess and improve their financial habits. Currently developing & training an AI-driven financial advisor agent.",
-    tags: ["Vue.js", "Python", "Flask", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Google Gemini"],
-    imageUrl: Fitality,
-    githubUrl: "https://github.com/aidensuhh/Fitality",
-  },
-  {
     title: "EchoDoc",
     description:
       "An innovative healthcare technology platform that revolutionizes how family doctors deliver care through AI voice cloning for remote patient interactions.",
     tags: ["TypeScript", "React", "Next.js", "Node.js", "Express.js", "Tailwind CSS", "Supabase", "Twilio", "ElevenLabs", "Google Gemini"],
     imageUrl: EchoDoc,
     githubUrl: "https://github.com/aidensuhh/EchoDoc",
+  },
+  {
+    title: "Fitality",
+    description:
+      "A gamified AI-powered financial health tracker that helps university students assess and improve their financial habits. Currently developing & training an AI-driven financial advisor agent.",
+    tags: ["Vue.js", "Python", "Flask", "PyTorch", "PostgreSQL", "Tailwind CSS", "Axios", "Google Gemini"],
+    imageUrl: Fitality,
+    githubUrl: "https://github.com/aidensuhh/Fitality",
   },
   {
     title: "OutPerform",
@@ -141,13 +141,13 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "Java",
+  "C++",
   "JavaScript",
   "TypeScript",
   "HTML",
   "CSS",
   "SQL",
   "Kotlin",
-  "Racket",
   "React",
   "Vue.js",
   "Node.js",
@@ -168,6 +168,8 @@ export const skillsData = [
   "Git",
   "GitHub",
   "Docker",
+  "AWS",
+  "Azure",
   "DigitalOcean",
   "Figma",
 ] as const;

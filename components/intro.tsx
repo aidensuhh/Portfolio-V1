@@ -54,7 +54,7 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0, y: 100}}
             animate={{ opacity: 1, scale: 1, y: 0}}
             transition={{ duration: 0.8 }}>
-                I am a <a className="underline font-bold" href="https://uwaterloo.ca/" target="_blank" rel="noopener">University of Waterloo</a> student pursuing a double major in <span className="font-bold">Computer Science and Finance</span>. With a passion for both fields, I strive to leverage technology and financial insights to tackle complex problems worldwide.
+                I am a <a className="underline font-bold" href="https://uwaterloo.ca/" target="_blank" rel="noopener">University of Waterloo</a> student pursuing a double major in <span className="font-bold">Computer Science and Finance</span>. With a passion for both fields, I strive to apply my technological skills and financial insights to tackle complex problems worldwide.
             </motion.span>
         </p>
 
