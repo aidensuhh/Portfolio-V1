@@ -38,14 +38,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "AI Training Specialist",
-    organization: "Scale AI",
-    description:
-      "Creating and answering computer science-related questions to train AI models, while evaluating and ranking AI-generated code for quality and accuracy.",
-    icon: React.createElement(AiOutlineRobot),
-    date: "March 2025 - Present",
-  },
-  {
     title: "Associate Software Developer",
     organization: "University of Waterloo FinTech Club",
     description:
