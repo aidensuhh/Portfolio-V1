@@ -6,7 +6,7 @@ import EchoDoc from "@/public/EchoDoc.png";
 import Breakout from "@/public/Breakout.png";
 import Portfolio_L from "@/public/Portfolio_L.png";
 import Portfolio_D from "@/public/Portfolio_D.png";
-import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff, AiOutlineRobot } from "react-icons/ai";
+import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff } from "react-icons/ai";
 import { StaticImageData } from "next/image";
 
 export const links = [
