@@ -6,7 +6,7 @@ import EchoDoc from "@/public/EchoDoc.png";
 import Breakout from "@/public/Breakout.png";
 import Portfolio_L from "@/public/Portfolio_L.png";
 import Portfolio_D from "@/public/Portfolio_D.png";
-import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePoweroff } from "react-icons/ai";
+import { AiOutlineLaptop, AiOutlineGlobal, AiTwotoneFileZip, AiOutlinePython, AiOutlineLogout } from "react-icons/ai";
 import { StaticImageData } from "next/image";
 
 export const links = [
@@ -38,11 +38,19 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Engineer",
+    organization: "TEDxUW",
+    description: 
+      "Integrating an interactive event platform using modern web technologies and implementing key features including payment processing, authentication, and administrative tools.",
+    icon: React.createElement(AiOutlineLogout),
+    date: "April 2025 - Present",
+  },
+  {
     title: "Associate Software Developer",
     organization: "University of Waterloo FinTech Club",
     description:
       "Engineered a decision support system that uses machine learning to recommend the most suitable fintech platform based on users' financial needs.",
-    icon: React.createElement(AiOutlinePoweroff),
+    icon: React.createElement(AiOutlinePython),
     date: "March 2025 - Present",
   },
   {
@@ -133,8 +141,6 @@ export const projectsData = [
 export const skillsData = [
   "Python",
   "Java",
-  "C",
-  "C++",
   "JavaScript",
   "TypeScript",
   "HTML",
@@ -152,17 +158,15 @@ export const skillsData = [
   "PyTorch",
   "NumPy",
   "pandas",
-  "Matplotlib",
+  "Git",
+  "GitHub",
+  "VS Code",
+  "Jupyter Notebook",
   "MySQL",
   "PostgreSQL",
   "Supabase",
   "SQLite",
   "Nginx",
-  "Git",
-  "GitHub",
   "Docker",
-  "AWS",
-  "Azure",
-  "DigitalOcean",
   "Figma",
 ] as const;

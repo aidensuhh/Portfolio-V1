@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { motion } from "framer-motion";
 import Link from 'next/link';
-// import { HiDownload } from "react-icons/hi";
+import { HiDownload } from "react-icons/hi";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import Profile from "../public/Profile.jpg";
 import { useSectionInView } from '@/lib/hooks';
@@ -68,7 +68,7 @@ export default function Intro() {
                 setTimeOfLastClick(Date.now());
             }}>Contact me!</Link>
 
-            {/* <a className="group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="/Resume.pdf" target="_blank" rel="noopener">Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /></a> */}
+            <a className="group bg-white text-gray-900 px-7 py-3 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="/AidenMSResume.pdf" target="_blank" rel="noopener">Resume <HiDownload className="opacity-60 group-hover:translate-y-1 transition" /></a>
 
             <a className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full font-bold shadow-sm outline-none hover:scale-110 hover:bg-neutral-50 hover:text-black active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/80" href="https://www.linkedin.com/in/aidensuhh/" target="_blank" rel="noopener">
                 <BsLinkedin />
