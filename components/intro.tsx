@@ -4,7 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import { motion } from "framer-motion";
 import Link from 'next/link';
-import { HiDownload } from "react-icons/hi";
+// import { HiDownload } from "react-icons/hi";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import Profile from "../public/Profile.jpg";
 import { useSectionInView } from '@/lib/hooks';
